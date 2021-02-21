@@ -31,7 +31,7 @@ return (
             <Link to="/education" className="item">Education</Link>
             <Link to="/skills" className="item">Skills</Link>
             <Link to="/contact" className="item">Contact</Link>
-  
+
         </div>
   </div>
 </Router>
