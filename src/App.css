@@ -19,9 +19,10 @@ body {
 
 .nav {
   padding: 100px;
-  display: inline-flex;
+  display: flex;
+  flex: 1;
   flex-direction: column;
-  justify-content: space-around;
+  align-content: start;
   background: linear-gradient(180deg, #a8dadc 30%, #f1faee 80%);
 }
 
@@ -30,6 +31,7 @@ body {
   text-align: right;
   list-style-type: none;
   text-decoration: none;
+  padding: 20px;
   color: #006d77;
 }
 
@@ -39,7 +41,8 @@ body {
 
 .frontpage {
   padding: 100px;
-  display: inline-flex;
+  display: flex;
+  flex: 3;
   flex-direction: column;
   justify-content: space-around;
   background-color: #ffffff;
